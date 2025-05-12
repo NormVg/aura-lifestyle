@@ -1,0 +1,1 @@
+ALTER TABLE "aura-waitlist" ALTER COLUMN "id" SET DEFAULT gen_random_uuid();

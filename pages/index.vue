@@ -146,6 +146,9 @@
           </div>
         </div>
       </section>
+
+      <StayConnected/>
+
     </main>
 
     <div class="decorative-elements">
@@ -158,16 +161,30 @@
       <a href="https://thealphaones.com" target="_blank">
       <div class="footer-content">
           <p class="ita">TheAlphaOnes</p>
+
         </div>
       </a>
-    </footer>
-  </div>
+
+
+        <a href="https://thealphaones.com" target="_blank">
+          twitter
+        </a>
+        <a href="https://thealphaones.com" target="_blank">
+          twitter
+        </a>
+      </footer>
+    </div>
+
+
+
 </template>
 
 <script setup>
 import { ref } from 'vue';
 
 import AuraLogo from "./assets/logo.svg"
+
+import StayConnected from '~/components/StayConnected.vue';
 
 const email = ref('');
 const emailError = ref('');
